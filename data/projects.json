@@ -1,13 +1,13 @@
 {
     "projects": {
         "project_1": [
-            {"title":"Project 1",
+            {"title":"ProjectOne",
              "intro":"project intro",
              "description":"project description"
            }
         ],
         "project_2": [
-            {"title":"Project 2",
+            {"title":"ProjectTwo",
              "intro":"project intro",
              "description":"project description"
             }
