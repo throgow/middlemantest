@@ -23,14 +23,10 @@ configure :development do
   activate :livereload
 end
 
-data.project_titles.project_titles.each do |title|
-  proxy "/projects/#{title}.html", "project_page.html", :locals => { :title => title }
-end
-
 data.projects.projects.each do |project_data|
   proxy "#{project_data[0]}.html",
         "project_page.html",
-        locals: { title: project_data[0], intro: project_data[1], description: project_data[2] }
+        :locals => { :title => project_data[0], :intro => project_data[1], :description => project_data[2] }
 end
 
 ###
