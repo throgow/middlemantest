@@ -1,8 +1,9 @@
 ---
 layout: index_template
 ---
-<h2>Hi. I'm Thomas Rogowiec and I'm an interaction designer based in Malmö, Sweden.</h2>
-<h2>Work</h2>
+
+<%= partial "partials/hero" %>
+
 <ul>
   <% data.project_titles.project_titles.each do |title| %>
   <li><a href=""><%= title %></a></li>

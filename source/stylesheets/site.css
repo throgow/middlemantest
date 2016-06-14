@@ -1,11 +1,4 @@
-/**
-*** SIMPLE GRID
-*** (C) ZACH COLE 2016
-**/
-
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
-
-/* UNIVERSAL */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
 
 html,
 body {
@@ -16,6 +9,13 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
+  display: block;
+}
+
+.main-container {
+ max-width: 970px;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 /* ROOT FONT STYLES */
@@ -56,18 +56,6 @@ p {
   font-size: 1.125rem;
   font-weight: 200;
   line-height: 1.8;
-}
-
-.font-light {
-  font-weight: 300;
-}
-
-.font-regular {
-  font-weight: 400;
-}
-
-.font-heavy {
-  font-weight: 700;
 }
 
 /* POSITIONING */
@@ -247,4 +235,20 @@ p {
     width: 75%;
     max-width: 60rem;
   }
+}
+
+section {
+  padding: 10%
+}
+
+.hero {
+  background-color: #eee;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
 }
