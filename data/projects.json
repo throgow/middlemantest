@@ -1,7 +1,7 @@
 {
     "projects": {
         "project_1": [
-            {"title": "ProjectOne",
+            {"title": "Det här är titlen på P1",
              "intro":"project intro",
              "description":"project description"
            }
