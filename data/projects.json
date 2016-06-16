@@ -1,15 +1,15 @@
 {
     "projects": {
         "project_1": [
-            {"title": "Det här är titlen på P1",
-             "intro":"project intro",
-             "description":"project description"
+            {"title": "P1 title",
+             "intro":"1 project intro",
+             "description":"1 project description"
            }
         ],
         "project_2": [
-            {"title":"ProjectTwo",
-             "intro":"project intro",
-             "description":"project description"
+            {"title":"P2 title",
+             "intro":"2 project intro",
+             "description":"2 project description"
             }
         ]
     }

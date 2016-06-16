@@ -1,7 +1,9 @@
 <section>
   <% data.project_titles.project_titles.each do |title| %>
-    <div>
-      <a href=""><%= title %></a>
+    <div class="card">
+      <h2>
+        <%= link_to title %>
+      </h2>
     </div>
   <% end %>
 </section>
