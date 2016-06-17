@@ -24,9 +24,9 @@ configure :development do
 end
 
 data.projects.projects.each do |project_data|
-  proxy "#{project_data[0]}.html",
+  proxy "#{project_data.path}",
         "project_page.html",
-        :locals => { :title => project_data[0], :intro => project_data[1], :description => project_data[2] }
+        :locals => { :title => project_data.title, :intro => project_data.intro, :description => project_data.description }
 end
 
 ###
