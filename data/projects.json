@@ -1,12 +1,12 @@
 {
     "projects": [
-        {"title": "Touchless",
-         "path": "/touchless.html",
+        {"title": "VR",
+         "path": "/vr.html",
          "intro":"1 project intro",
          "description":"1 project description"
        },
-        {"title":"Digitala lathundar",
-         "path": "/lathundar.html",
+        {"title":"Touchless",
+         "path": "/touchless.html",
          "intro":"2 project intro",
          "description":"2 project description"
        },
@@ -14,16 +14,6 @@
         "path": "/lathundar.html",
         "intro":"2 project intro",
         "description":"2 project description"
-      },
-        {"title": "Trialbee",
-         "path": "/trialbee.html",
-         "intro":"1 project intro",
-         "description":"1 project description"
-       },
-       {"title": "TBL7",
-        "path": "/tbl7.html",
-        "intro":"1 project intro",
-        "description":"1 project description"
       }
     ]
 }
