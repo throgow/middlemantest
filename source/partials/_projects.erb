@@ -1,9 +1,12 @@
-<section>
-  <% data.projects.projects.each do |project| %>
-    <div class="card">
-      <h2>
-        <%= link_to project.title, project.path, relative: true  %>
-      </h2>
-    </div>
-  <% end %>
+<section class="gray">
+
+    <h1 class="center">Selected work</h1>
+    <% data.projects.projects.each do |project| %>
+      <div class="card">
+        <h2>
+          <%= link_to project.title, project.path, relative: true  %>
+        </h2>
+      </div>
+    <% end %>
+
 </section>

@@ -1,0 +1,23 @@
+.logo {
+  float: left;
+}
+
+.navigation-bar {
+  padding: 2em;
+  position: relative;
+  font-size: 1.8rem;
+}
+
+.navigation-bar ul {
+  float: right;
+  list-style-type: none;
+}
+
+.navigation-bar li {
+  display: inline-block;
+}
+
+.navigation-bar a {
+  font-size: 22px;
+  padding: 1em;
+}
