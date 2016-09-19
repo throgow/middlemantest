@@ -1,8 +1,8 @@
 {
     "projects": [
-        {"title": "VR",
+        {"title": "Touchless + VR",
          "path": "/vr.html",
-         "intro":"1 project intro",
+         "intro":"Creating touchless experiences on mobile VR",
          "description":"1 project description"
        },
         {"title":"Touchless",
