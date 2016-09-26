@@ -83,8 +83,14 @@ p {
   text-align: justify;
 }
 
+.padded {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
 section {
-  padding: 5em;
+  width: 80%;
+  margin: 0 auto;
 }
 
 img {
@@ -99,7 +105,7 @@ img {
   background-color: $gray;
 }
 
-.button {
+.card-btn {
   background-color: white;
   border: 2px solid #eee;
   border-radius: 60px;
@@ -114,16 +120,16 @@ img {
   text-transform: uppercase;
   transition-duration: 0.5s;
   -webkit-transition-duration: 0.5s; /* Safari */
-  width: 80%;
+  width: 20%;
 }
 
-.button:hover {
+.card-btn:hover {
     background-color: #35BABF;
     color: white;
     border: 2px solid #35BABF;
 }
 
-.button:hover a {
+.card-btn:hover a {
     color: white;
     text-decoration: none;
 }

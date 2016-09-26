@@ -1,13 +1,13 @@
-<section class="gray">
+<section class="padded">
     <h1 class="center">Selected work</h1>
     <div class="row">
       <% data.projects.projects.each do |project| %>
-        <div class="col-md-4 card center">
+        <div class="col-md-12 vr card center">
           <h2>
             <%= project.title %>
           </h2>
           <div>
-            <%= link_to 'View project', project.path, relative: true, :class=>'button'  %>
+            <%= link_to 'View project', project.path, relative: true, :class=>'card-btn'  %>
           </div>
         </div>
       <% end %>

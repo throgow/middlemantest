@@ -1,16 +1,26 @@
-.logo {
+.navigation-bar {
+  height: 70px;
+  padding:0;
+  font-size: 1.8rem;
+  background-color: #fbfbfb;
+}
+
+.nav-links {
+  float: right;
+  margin-right: 1em;
+}
+
+.logo a {
+  display: inline-block;
   float: left;
 }
 
-.navigation-bar {
-  padding: 2em;
-  position: relative;
-  font-size: 1.8rem;
-}
-
 .navigation-bar ul {
-  float: right;
+  display: inline-block;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .navigation-bar li {
@@ -19,5 +29,15 @@
 
 .navigation-bar a {
   font-size: 22px;
-  padding: 1em;
+  display: block;
+  padding: 19px;
+  text-decoration: none;
+}
+
+.navigation-bar a:hover {
+  background-color: #eee;
+}
+
+.active {
+    background-color: #fff;
 }
