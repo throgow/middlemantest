@@ -1,5 +1,16 @@
 .footer {
-  padding: 1em;
+  margin-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   font-size: 1.8rem;
   background-color: #fbfbfb;
+}
+
+.contact-links {
+  float: left;
+  max-width: 0.8em;
+}
+
+.contact-links:hover {
+  opacity: 0.5;
 }

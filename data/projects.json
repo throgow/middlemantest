@@ -1,16 +1,16 @@
 {
     "projects": [
-        {"title": "Touchless + VR",
+        {"title": "Mobile virtual reality",
          "path": "/vr.html",
          "intro":"Creating touchless experiences on mobile VR",
          "description":"1 project description"
        },
-        {"title":"Touchless",
+        {"title":"Touchless interaction",
          "path": "/touchless.html",
          "intro":"2 project intro",
          "description":"2 project description"
        },
-       {"title":"Digitala lathundar",
+       {"title":"Officer's handbook",
         "path": "/lathundar.html",
         "intro":"2 project intro",
         "description":"2 project description"

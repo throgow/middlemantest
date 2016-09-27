@@ -32,12 +32,14 @@
   display: block;
   padding: 19px;
   text-decoration: none;
+  color: #000;
 }
 
 .navigation-bar a:hover {
-  background-color: #eee;
+  color: #83AF9B;
 }
 
 .active {
     background-color: #fff;
+
 }
